@@ -1,0 +1,32 @@
+.box {
+    margin: 40px auto;
+    background: #005eff;
+    width: 300px;
+    height: 200px;
+}
+
+.box:hover {
+    -webkit-transform: rotate(-360deg);
+    background: #d1e000;
+    border-radius: 50px;
+    width: 150px;
+
+}
+
+.rotate {
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.rotate:hover {
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
+.box p {
+    text-align: center;
+}
